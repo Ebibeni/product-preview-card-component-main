@@ -4,6 +4,9 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 10px;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
   }
 
 
@@ -17,7 +20,7 @@ main {
   .image-item{
     height: 452px;
     width: 300px;
-    background-image: url("/images/image-product-desktop.jpg");
+    background-image: url(/images/image-product-desktop.jpg);
     background-size: cover;
     background-position: center center;
     border-radius: 10px 0 0 10px;
@@ -100,8 +103,6 @@ main {
       flex-wrap: nowrap;
     }
     
-    
-
     .right-side-div, .left-side-div {
       flex-basis: 33%;
     }
@@ -115,7 +116,7 @@ main {
       }
       .image-item{
         height: 240px;
-        background-image: url("/images/image-product-mobile.jpg");
+        background-image: url(/images/image-product-mobile.jpg);
         background-size: cover;
         background-position: center center;
         border-radius: 10px 10px 0 0;
