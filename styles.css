@@ -17,7 +17,7 @@ main {
   .image-item{
     height: 452px;
     width: 300px;
-    background-image: url(/images/image-product-desktop.jpg);
+    background-image: url("/images/image-product-desktop.jpg");
     background-size: cover;
     background-position: center center;
     border-radius: 10px 0 0 10px;
@@ -115,7 +115,7 @@ main {
       }
       .image-item{
         height: 240px;
-        background-image: url(/images/image-product-mobile.jpg);
+        background-image: url("/images/image-product-mobile.jpg");
         background-size: cover;
         background-position: center center;
         border-radius: 10px 10px 0 0;
